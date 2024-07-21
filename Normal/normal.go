@@ -1,4 +1,4 @@
-package main
+package normal
 
 import (
 	"fmt"
@@ -78,16 +78,4 @@ func (l linkedList) String() string {
 		temp = temp.next
 	}
 	return sb.String()
-}
-
-func main() {
-	fmt.Println("hello world")
-	l := linkedList{}
-	l.add(1)
-	l.add(2)
-	l.add(3)
-	l.add(4)
-	l.remove(5)
-	fmt.Println(l)
-
 }
